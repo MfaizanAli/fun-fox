@@ -1,10 +1,16 @@
 /* components/Task.css */
 
 .Task {
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
   border-radius: 4px;
   padding: 10px;
   margin: 10px 0;
+  transition: background-color 1s, padding 0.5s;
+}
+
+.Task:hover {
+  background-color: #dbddf8;
+  padding: 20px 30px;
 }
 
 .Task h3 {
