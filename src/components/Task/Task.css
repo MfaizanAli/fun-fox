@@ -1,0 +1,24 @@
+/* components/Task.css */
+
+.Task {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.Task h3 {
+  margin: 0;
+}
+
+.Task p {
+  margin: 5px 0;
+}
+
+.Task button {
+  margin-right: 5px;
+}
+
+.Task button:last-child {
+  margin-right: 0;
+}
