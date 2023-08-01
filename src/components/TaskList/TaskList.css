@@ -5,3 +5,22 @@
   flex-direction: column;
   align-items: center;
 }
+
+
+/* Media queries for responsive layout */
+
+/* Desktops and larger (1024px and above) */
+@media screen and (min-width: 1024px) {
+  .TaskList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Mobiles and smaller (up to 767px) */
+@media screen and (max-width: 767px) {
+  .TaskList {
+    padding: 0 10px;
+  }
+}

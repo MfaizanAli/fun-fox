@@ -22,3 +22,15 @@
 .Task button:last-child {
   margin-right: 0;
 }
+
+
+
+/* Media queries for responsive layout */
+
+/* Desktops and larger (1024px and above) */
+@media screen and (min-width: 1024px) {
+  .Task {
+    max-width: 400px;
+    margin: 10px auto;
+  }
+}
