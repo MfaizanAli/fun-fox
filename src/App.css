@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+/* Media queries for responsive layout */
+
+/* Tablets and larger (768px and above) */
+@media screen and (min-width: 768px) {
+  .App {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+}
+
+/* Desktops and larger (1024px and above) */
+@media screen and (min-width: 1024px) {
+  .App {
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+}
+
+/* Large desktops and larger (1200px and above) */
+@media screen and (min-width: 1200px) {
+  .App {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
